@@ -1,0 +1,201 @@
+body {
+background-color: #1E3868;
+  color: white;
+}
+
+
+#home {
+  font-size: 3vw;
+}
+
+/* #navbarImg {
+  width: 4vw;
+} */
+
+#boroImg {
+  height:20vw;
+  width: 10vw;
+}
+.round{
+  border-radius: 50%;
+  height: 5vw;
+  width: 5vw;
+}
+.navbarTwo{
+  height: 5vw;
+}
+.navbarTwoText{
+  font-size: 3.2vw;
+}
+.card{
+  margin-top: 0 !important;
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.h1{
+  text-align: center;
+  font-size: 40px;
+  
+}
+.p{
+    text-align: center;
+  font-size: 40px;
+}
+/*Community buttons css*/
+.long {
+  width: 900px;
+  background-color: #152A52;
+  color: #FCB03F;
+  text-align: center;
+  padding: 10px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+.long:after{
+  content: "";
+  background: #152a52;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.long:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.arrow {
+  background-color: #152A52;
+  color: #FCB03F;
+  
+}
+/*Community buttons css end*/
+
+.cbackground-color: ;ckground-color: ; {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.cent {
+  text-align: center;
+}
+
+
+
+/*  NAV BAR CLASSES DO NOT TOUCH*/
+.ms-2{
+  margin-left: 0rem!important;
+}
+.mt-2{
+  margin-top: 0rem!important
+}
+.mainNavbarTEXT{
+ font-family: serifa, serif;
+  font-weight: 400;
+font-style: normal;
+  font-size: 3vw;
+  color: white;
+}
+.img-fluid{
+  height: 5vw;
+  width: 5vw;
+}
+.mainNavbar{
+  background-color: #94B1FF;
+   --bs-gutter-x: 0rem!important;
+}
+.navbar{
+  justify-content: left;
+}
+.navbarTEXT{
+  font-family: serifa, serif;
+}
+.navbarIMG{
+  transition: transform .8s ease-in-out;
+}
+.navbarIMG:hover{
+   transform: rotate(360deg);
+}
+
+
+/*  END OF NAV BAR*/
+
+/* carousel */
+    .carousel-inner {
+      border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        border-bottom: 5px;
+        border-color: #101568;
+        border-style: solid;
+    }
+
+/* Lewis Brothers Page Start */
+#imgLB {
+  padding: 20px;
+  width: 5vw;
+  height: 30vw;
+  justify-content: center;
+}
+
+#textLB {
+  padding: 20px;
+   text-align: center;
+  border: 3px solid black;
+  height: 20vw;
+}
+
+
+/* Lews Brothers Page End */
+
+.direct {
+  height: 10vw;
+}
+.directRow{
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.directText{
+  text-decoration:none;
+  font-size: 2.5vw;
+    transform: translateY(90%);
+}
+.row{
+      --bs-gutter-x: 0rem!important;
+}
+
+/* profiles css */
+.lines {
+  border-style: dashed;
+  width: 1500px;
+  border-color: #1E3868;
+}
+
+#profileRow{
+  border-style: dashed hidden dashed hidden; 
+  border-width: 2px;
+}
+#profileImg{
+  height: max(5vw, 55px);
+  width: max(5vw, 55px);
+}
+
+. a:hover {
+  
+}

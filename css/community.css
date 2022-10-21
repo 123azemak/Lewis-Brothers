@@ -1,0 +1,77 @@
+body {
+  background-color: #94B1FF;
+}
+.round{
+  border-radius: 50%;
+  height: 5vw;
+  width: 5vw;
+}
+.navbarTwo{
+  height: 5vw;
+}
+.navbarTwoText{
+  font-size: 3.2vw;
+}
+.card{
+  margin-top: 0 !important;
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: dapifer,serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.h1{
+  text-align: center;
+  font-size: 40px;
+}
+.p{
+    text-align: center;
+  font-size: 40px;
+}
+/*Community buttons css*/
+.long {
+  width: 900px;
+  background-color: #152A52;
+  color: #FCB03F;
+  text-align: center;
+  padding: 10px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+.long:after{
+  content: "";
+  background: #152a52;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.long:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.arrow {
+  background-color: #152A52;
+  color: #FCB03F;
+  
+}
+/*Community buttons css end*/
+
+.cent {
+  text-align: center;
+}
