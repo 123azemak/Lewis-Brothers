@@ -133,12 +133,13 @@ font-style: normal;
    transform: rotate(360deg);
 }
 
+
 /* THIS CENTERS EVERYTHING VETICALLY */
 .navbar-nav{
     display: flex;
   justify-content: center;
   align-items: center;
-
+  
 }
 
 
