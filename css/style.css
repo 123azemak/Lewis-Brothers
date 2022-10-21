@@ -14,7 +14,7 @@ background-color: #1E3868;
 
 #boroImg {
   height:30vw;
-  width: 20vw;
+  width: 30vw;
 }
 .round{
   border-radius: 50%;
@@ -48,6 +48,8 @@ background-color: #1E3868;
     text-align: center;
   font-size: 40px;
 }
+
+
 /*Community buttons css*/
 .long {
   width: 900px;
@@ -129,6 +131,14 @@ font-style: normal;
 }
 .navbarIMG:hover{
    transform: rotate(360deg);
+}
+
+/* THIS CENTERS EVERYTHING VETICALLY */
+.navbar-nav{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
