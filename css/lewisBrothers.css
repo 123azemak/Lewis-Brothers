@@ -1,0 +1,15 @@
+.row {
+  border: 5px solid black;
+}
+
+.among {
+  height: 400px;
+}
+.us{
+  height: 275px;
+}
+
+.margin{
+  margin-left: 15vw;
+  margin-right: 15vw;
+}

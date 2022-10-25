@@ -1,5 +1,5 @@
 body {
-  background-color: #94B1FF;
+  background-color: #1E3868;
 }
 .round{
   border-radius: 50%;
@@ -34,6 +34,11 @@ font-style: italic;
 .p{
     text-align: center;
   font-size: 40px;
+}
+
+#img {
+ height:30vw;
+  width: 30vw; 
 }
 /*Community buttons css*/
 .long {

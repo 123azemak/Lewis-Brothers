@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
 body {
 background-color: #1E3868;
   color: white;
@@ -99,6 +101,7 @@ background-color: #1E3868;
 
 
 /*  NAV BAR CLASSES DO NOT TOUCH*/
+/* i dont know what these classes do, these are most likely used for the old navbar and directory arrow */
 .ms-2{
   margin-left: 0rem!important;
 }
@@ -141,7 +144,11 @@ font-style: normal;
   align-items: center;
   
 }
-
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3em;
+}
 
 /*  END OF NAV BAR*/
 
@@ -151,10 +158,14 @@ font-style: normal;
         border-left: 5px;
         border-right: 5px;
         border-bottom: 5px;
-        border-color: #101568;
+          
         border-style: solid;
     }
-
+/* follow buttons css start */
+.followbtn{
+  width: 64px; !important;
+  height: 64px; !important;
+}
 /* Lewis Brothers Page Start */
 #imgLB {
   padding: 20px;
@@ -206,7 +217,10 @@ font-style: normal;
   height: max(5vw, 55px);
   width: max(5vw, 55px);
 }
-
-. a:hover {
-  
+.hisousel {
+  width: 20%
+  margin: auto;
+}
+.rights {
+  width: 55px;
 }
