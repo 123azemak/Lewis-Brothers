@@ -29,11 +29,7 @@ background-color: #1E3868;
 .navbarTwoText{
   font-size: 3.2vw;
 }
-.card{
-  margin-top: 0 !important;
-  padding-left: ($spacer * .5) !important;
-  padding-right: ($spacer * .5) !important;
-}
+
 .center {
   display: block;
   margin-left: auto;
@@ -224,3 +220,49 @@ font-style: normal;
 .rights {
   width: 55px;
 }
+
+/* interviews page start */
+.smBox {
+  height: 400px;
+}
+.interviewBox{
+  height: 275px;
+    border: 5px solid black;
+}
+
+.intMargin{
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+/* interview page end */
+  .himg {
+        border-style: solid;
+  }
+.cents {
+  text-align: center;
+}
+
+/* gallery page start */
+.galMargin {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.galCard{
+  transition: all .2s ease-in-out;
+}
+
+.galCard:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: scale(1.);
+}
+
+#para{
+font-size: 20px;
+text-align: center;
+}
+/* gallery page end */

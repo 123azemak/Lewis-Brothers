@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3em;
+}
+
 body {
   background-color: #1E3868;
 }
@@ -40,6 +48,18 @@ font-style: italic;
  height:30vw;
   width: 30vw; 
 }
+
+.img-fluid{
+  height: 5vw;
+  width: 5vw;
+}
+
+.followbtn{
+  width: 64px; !important;
+  height: 64px; !important;
+  
+}
+
 /*Community buttons css*/
 .long {
   width: 900px;
@@ -79,4 +99,12 @@ font-style: italic;
 
 .cent {
   text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
 }

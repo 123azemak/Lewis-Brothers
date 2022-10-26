@@ -5,45 +5,76 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lewis Brothers Project</title>
-  <link href="css/gallery.css" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link href="css/community.css" rel="stylesheet" type="css/text" />
+    <link href="css/gallery.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
-  <div class="row mt-2 ms-2">
-    <div class="col-2 col-lg-1">
-      <a href="#"><img class="img-fluid" src="img/boro colonials logo.png" alt="Logo" /></a>
+<!--     Custom Navbar Color -->
+  <nav class="navbar navbar-expand-lg" style="background-color: rgba(216, 221, 222, 0)">
+
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-1 text-center">
+          
+<!--           <li class="nav-item flex-fill">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li> -->
+          <li class="nav-item flex-fill">
+            <a class="nav-link active" href="history.html">History</a>
+          </li>
+          <li class="nav-item flex-fill">
+            <a class="nav-link active" href="lewisBrothers.html">Lewis Brothers</a>
+          </li>
+          <li class="nav-item flex-fill">
+            <a class="nav-link active" href="community.html">Community</a>
+          </li>
+          <li class="nav-item flex-fill"><a href="index.html"><img class="img-fluid" src="img/boro colonials logo.png" alt="Logo" /></a></li>
+          <li class="nav-item flex-fill">
+            <a class="nav-link active" href="profiles.html">Profiles</a>
+          </li>
+          <li class="nav-item flex-fill">
+            <a class="nav-link active" href="interviews.html">Interviews</a>
+          </li>
+          <li class="nav-item flex-fill">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="col-9 col-md-10 text-center">
-      <h1 id="head" class="pt-1 pt-sm-3 pt-md-4 p-lg-2">Freehold Borough</h1>
-    </div>
-  </div>
-  <!-- END  Top Row Navbar (logo and text)-->
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-      <svg xmlns="http://www.w3.org/2000/svg" width="5vw" height="5vw" fill="currentColor"
-        class="bi bi-arrow-left d-inline-block align-top navbarIMG" viewBox="0 0 16 16">
-        <path fill-rule="evenodd"
-          d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-      </svg>
-    </a>
-    <h1 class="navbarTEXT"><b>Directory</b></h1>
   </nav>
-
+  <!-- 	END MCD Navbar -->
   <br>
   <br>
-
-  <h1 id="head">Gallery</h1>
+<!--   container start -->
+<div class="container-fluid">
+  <div class="row intMargin">
+    <div class="col-4"></div>
+    <div class="col-4 " style="text-align: center;">
+        <h2 style="border-bottom-style: solid;">Gallery</h2>
+      </div>
+    <div class="col-4"></div>
+  </div>
+  <br>
   <p id="para">
     This gallery contains images and information pertaining to the Lewis Brothers, important locations, and more.
     Click the links at the bottom of the images to view extra information about the subjects.
   </p>
+  <br>
+  <br>
+  <br>
+<!--   row start -->
   <div class="row">
-    <div class="col">
-      <div class="card" style="width: 35rem;">
+    <!--     card start -->
+    <div class="col-4">
+      <div class="card galCard" style="width: 25rem;">
         <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
         <div class="card-body">
           <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
@@ -72,14 +103,21 @@
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Pavil.webp" alt="Pavil">
+    <!--     card end -->
+    <!--     card start -->
+      <div class="col-4">
+      <div class="card galCard" style="width: 25rem;">
+        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
         <div class="card-body">
-          <h5 class="card-title">Lewis Brothers Pavilion</h5>
-          <p class="card-text">Freehold Borough celebrated Veterans Day 2018 by introducing the Lewis Brothers
-            Pavilion at Veterans Park, named after the six Lewis brothers who fought in every branch of the military
-            in World War II.
+          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
+          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis
+            served
+            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
+            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
+
+            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne
+            about
+            six Freehold men, and their lives before, during, and after World War II.
           </p>
         </div>
         <ul class="list-group list-group-flush">
@@ -90,14 +128,17 @@
           <li class="list-group-item">Vestibulum at eros</li>
         </ul>
         <div class="card-body">
-          <a href="https://www.gannett-cdn.com/presto/2018/11/11/PAPP/0d2c9b8c-ad1e-4125-86c0-053d5e9e0ccb-IMG_0949.JPG?width=592&format=pjpg&auto=webp&quality=70"
+          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
             class="card-link">Enhanced Image</a>
-          <a href="https://goo.gl/maps/hRnbRTexnGGXU6zUA" class="card-link">Park Location</a>
+          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
+            class="card-link">Funeral Tribute</a>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 35rem;">
+<!--     card end -->
+<!--     card start -->
+    <div class="col-4">
+      <div class="card galCard" style="width: 25rem;">
         <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
         <div class="card-body">
           <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
@@ -127,184 +168,16 @@
       </div>
     </div>
   </div>
-  </div>
+  <!--     card end -->
+<!--   row end -->
   <br>
   <br>
   <br>
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
-        <div class="card-body">
-          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
-          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis served
-            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
-            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
+ 
 
-            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne about
-            six Freehold men, and their lives before, during, and after World War II.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">At the age of 93, Buddy Lewis Jr, a life-long resident of Freehold passed away at
-            home on February 25, 2019.</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
-            class="card-link">Enhanced Image</a>
-          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
-            class="card-link">Funeral Tribute</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
-        <div class="card-body">
-          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
-          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis served
-            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
-            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
+</div>
+<!--   end container -->
 
-            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne about
-            six Freehold men, and their lives before, during, and after World War II.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">At the age of 93, Buddy Lewis Jr, a life-long resident of Freehold passed away at
-            home on February 25, 2019.</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
-            class="card-link">Enhanced Image</a>
-          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
-            class="card-link">Funeral Tribute</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
-        <div class="card-body">
-          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
-          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis served
-            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
-            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
-
-            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne about
-            six Freehold men, and their lives before, during, and after World War II.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">At the age of 93, Buddy Lewis Jr, a life-long resident of Freehold passed away at
-            home on February 25, 2019.</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
-            class="card-link">Enhanced Image</a>
-          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
-            class="card-link">Funeral Tribute</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
-        <div class="card-body">
-          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
-          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis served
-            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
-            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
-
-            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne about
-            six Freehold men, and their lives before, during, and after World War II.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">At the age of 93, Buddy Lewis Jr, a life-long resident of Freehold passed away at
-            home on February 25, 2019.</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
-            class="card-link">Enhanced Image</a>
-          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
-            class="card-link">Funeral Tribute</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
-        <div class="card-body">
-          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
-          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis served
-            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
-            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
-
-            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne about
-            six Freehold men, and their lives before, during, and after World War II.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">At the age of 93, Buddy Lewis Jr, a life-long resident of Freehold passed away at
-            home on February 25, 2019.</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
-            class="card-link">Enhanced Image</a>
-          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
-            class="card-link">Funeral Tribute</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="img/Bigerton-Lewis.jpg" alt="Portait">
-        <div class="card-body">
-          <h5 class="card-title">Bigerton Yemmons “Buddy” Lewis Jr.</h5>
-          <p class="card-text">He attended Court Street School and graduated from Freehold High School. Mr. Lewis served
-            in the Army, Company A, 1317th General Service Engineer Regiment during World War II and was recently
-            honored at Veterans Park with the dedication of the Lewis Brothers Pavilion.
-
-            He was also the last living veteran featured in the 2003 book, “Marching Home”, written by Kevin Coyne about
-            six Freehold men, and their lives before, during, and after World War II.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">At the age of 93, Buddy Lewis Jr, a life-long resident of Freehold passed away at
-            home on February 25, 2019.</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="https://higginsmemorialhome.com/tribute-images/3392/Ultra/Bigerton-Lewis.jpg"
-            class="card-link">Enhanced Image</a>
-          <a href="https://www.app.com/picture-gallery/news/local/western-monmouth-county/freehold/2018/11/11/freehold-borough-veterans-day-commemoration-lewis-brothers-wwii/1971906002/"
-            class="card-link">Funeral Tribute</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <br>
-  <br>
-  <br>
   <!--   footer does not work on this page, commented to save it for when it does work -->
   <!-- <footer class="py-5 bg-black">
       <div class="container px-5">
