@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 body {
 background-color: #1E3868;
   color: white;
@@ -138,6 +138,7 @@ font-style: normal;
     display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 120px;
   
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
@@ -235,8 +236,12 @@ font-style: normal;
   margin-right: 15vw;
 }
 /* interview page end */
-  .himg {
-        border-style: solid;
+/* History page start */
+.himgl {
+        width: max(50xw,90px);
+  }
+.himgr {
+        width: max(50vw,90px);
   }
 .cents {
   text-align: center;
@@ -246,6 +251,7 @@ font-style: normal;
 .galMargin {
   margin-left: 10vw;
   margin-right: 10vw;
+  justify-content: center;
 }
 
 .galCard{
@@ -266,3 +272,15 @@ font-size: 20px;
 text-align: center;
 }
 /* gallery page end */
+
+}
+
+/* Lewis Brother beginning*/
+#lbImages {
+  width: 20vw;
+  height: 20vh;
+}
+
+#textLB {
+  font-family: 'Oswald', sans-serif;
+}
