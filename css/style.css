@@ -271,7 +271,8 @@ font-style: normal;
 .galCard{
   transition: all .2s ease-in-out;
   color: black;
-  width: max(20vw, 200px)
+  width: max(20vw, 200px);
+  margin: auto;
 }
 
 .galCard:hover {
