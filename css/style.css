@@ -207,12 +207,17 @@ font-style: normal;
 }
 
 #profileRow{
-  border-style: dashed hidden dashed hidden; 
-  border-width: 2px;
+  border-style: solid hidden solid hidden; 
+  border-width: 3px;
+  color: rgba(240, 240, 255, 0.4);
 }
 #profileImg{
-  height: max(5vw, 55px);
-  width: max(5vw, 55px);
+  height: max(5vw, 30px);
+  width: max(5vw, 30px);
+  
+}
+.profileText{
+  color: white;
 }
 .hisousel {
   width: 20%
@@ -254,8 +259,19 @@ font-style: normal;
   justify-content: center;
 }
 
+.colSpace{
+  margin-left: 10px;
+  margin-right: 10px;
+/*   align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; */
+}
+
 .galCard{
   transition: all .2s ease-in-out;
+  color: black;
+  width: max(20vw, 200px)
 }
 
 .galCard:hover {
@@ -264,7 +280,7 @@ font-style: normal;
   animation-name: example;
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  transform: scale(1.);
+  transform: scale(1.1);
 }
 
 #para{
@@ -273,12 +289,14 @@ text-align: center;
 }
 /* gallery page end */
 
+.cimg {
+  width: max(16.2vw,80px);
 }
 
 /* Lewis Brother beginning*/
 #lbImages {
-  width: 20vw;
-  height: 20vh;
+  width: 35vw;
+  height: 50vh;
 }
 
 #textLB {
